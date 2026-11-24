@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 白林强的博客
+title: A simple man
 subtitle: ''
-description: 'a simple coder'
+description: 'a simple man records a little simple things'
 keywords: 'java'
 author: linqiangbai
 language: zh-cn
@@ -96,11 +96,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://bailinqiang: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@github.com/bailinqiang/bailinqiang.github.io.git
+  repo: https://github.com/bailinqiang/bailinqiang.github.io.git
   branch: master
