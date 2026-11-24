@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha256-4Lad8m4ZWW1Lgb9+sMVLYEfnIh7BjV1NQMEe79Pviks=" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
-<script class="next-config" data-name="main" type="application/json">{"hostname":"bailinqiang.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.29.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Serĉante...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js" defer></script>
+<script class="next-config" data-name="main" type="application/json">{"hostname":"bailinqiang.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":true,"version":"8.29.1","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"codeblock":{"theme":{"light":"default","dark":"stackoverflow-dark"},"prism":{"light":"prism","dark":"prism-dark"},"copy_button":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"language":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"Пошук...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js" defer></script>
 
     <meta name="description" content="总览借鉴霸爷的图 其中内存使用的去向主要有3个：1、进程消耗。 2、slab消耗 3、pagetable消耗。 进程消耗通过top命令看到的res就是用户进程的消耗 slab消耗简单的说内核为了高性能每个需要重复使用的对象都会有个池，这个slab池会cache大量常用的对象，所以会消耗大量的内存。通过 slabtop来查看具体使用情况。 pagetable消耗管理这些物理页面的硬开销">
 <meta property="og:type" content="article">
@@ -77,7 +77,7 @@
   <main class="main">
     <div class="column">
       <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
-  <div class="site-nav-search popup-trigger" aria-label="Serĉi" role="button">
+  <div class="site-nav-search popup-trigger" aria-label="Пошук" role="button">
   </div>
 
   <div class="site-meta">
@@ -89,7 +89,7 @@
     </a>
   </div>
 
-  <div class="site-nav-toggle" aria-label="Baskuligi navigacian stangon" role="button">
+  <div class="site-nav-toggle" aria-label="Показати/приховати меню" role="button">
   </div>
 </div>
 
@@ -107,10 +107,10 @@
     <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
-          Enhavtabelo
+          Зміст
         </li>
         <li class="sidebar-nav-overview">
-          Superrigardo
+          Огляд
         </li>
       </ul>
 
@@ -131,12 +131,12 @@
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
           <span class="site-state-item-count">10</span>
-          <span class="site-state-item-name">afiŝoj</span>
+          <span class="site-state-item-name">Архів</span>
         </a>
       </div>
       <div class="site-state-item site-state-tags">
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">etikedoj</span>
+        <span class="site-state-item-name">Теги</span>
       </div>
   </nav>
 </div>
@@ -189,16 +189,16 @@
       <span class="post-meta-item-icon">
         <i class="far fa-calendar"></i>
       </span>
-      <span class="post-meta-item-text">Afiŝita je</span>
+      <span class="post-meta-item-text">Опубліковано</span>
 
-      <time title="Kreita por: 2019-12-24 16:28:52" itemprop="dateCreated datePublished" datetime="2019-12-24T16:28:52+08:00">2019-12-24</time>
+      <time title="Створено: 2019-12-24 16:28:52" itemprop="dateCreated datePublished" datetime="2019-12-24T16:28:52+08:00">2019-12-24</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
         <i class="far fa-calendar-check"></i>
       </span>
-      <span class="post-meta-item-text">Redaktita je</span>
-      <time title="Modifita por: 2026-11-24 13:39:36" itemprop="dateModified" datetime="2026-11-24T13:39:36+08:00">2026-11-24</time>
+      <span class="post-meta-item-text">Змінено</span>
+      <time title="Змінено: 2026-11-24 13:39:36" itemprop="dateModified" datetime="2026-11-24T13:39:36+08:00">2026-11-24</time>
     </span>
 
   
@@ -264,7 +264,7 @@
     </span>
     <span class="author" itemprop="copyrightHolder">linqiangbai</span>
   </div>
-  <div class="powered-by">Funkciigita de <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">Генератор — <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a>
   </div>
 
     </div>
