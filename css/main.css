@@ -1380,7 +1380,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ec227c;
+  background: #ffd925;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2725,4 +2725,38 @@ header.header {
   .sidebar-active .footer-fixed {
     left: 320px;
   }
+}
+.post-body p {
+  text-indent: 2em;
+  margin: 1.8em 0;
+  line-height: 2;
+}
+.post-body ul li p,
+.post-body ol li p {
+  text-indent: 0;
+}
+.post-body blockquote p {
+  text-indent: 0;
+}
+.post-body pre,
+.post-body .highlight {
+  text-indent: 0;
+}
+.post-body pre p,
+.post-body .highlight p {
+  text-indent: 0;
+}
+.post-body img {
+  display: block;
+  margin: 1.2em auto;
+}
+.post-body table {
+  text-indent: 0;
+}
+.posts-expand .post-body p {
+  text-indent: 2em;
+  line-height: 2;
+}
+.post-header {
+  margin-bottom: 1.5em;
 }
